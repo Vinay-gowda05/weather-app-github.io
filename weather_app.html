@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="csss.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="java.js"></script>
+    <style>
+        body {
+            background-image: url(./nature\ images-4.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar background">
+        <div class="logo">
+            <a href="index.html
+            "><img src="Logo.png" style="height: 100px;" alt="Logo"></a>
+        </div>
+        <ul class="nav-list">
+            <li><a href="weather_app.html" style="text-decoration: none;">Weather App</a></li>
+            </div>
+    </nav>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <button class="btn btn-primary btn-outline-success text-light" onclick="getWeatherData()">Search</button>
+        <div class="card">
+        </div>
+    </div>
+    <div class="card mt-5">
+        <div class="card-body justify-content-around">
+            <img src="heatwave-icon.jpg" height="50" width="50"><span id="temp">temperature</span>
+        </div>
+    </div>
+    <div class="card mt-3">
+        <div class="card-body justify-content-around">
+            <i id="icon"><img src="icons8-partly-cloudy-day-48.png" alt=""></i><span id="desc">weather</span>
+        </div>
+    </div>
+    <div class="card mt-3">
+        <div class="card-body justify-content-around">
+            <img src="icons8-wind-turbine-64.png"> <span id="wind">windspeed</span>
+        </div>
+    </div>
+    <div class="card mt-3">
+        <div class="card-body justify-content-around">
+            <img src="compass.jpeg" height="50px" width="50px"><span id="deg">degrees</span>
+        </div>
+    </div>
+    <div class="card mt-3">
+        <div class="card-body justify-content-around">
+            <img src="icons8-humidity-50.png"><span id="humid">humidity</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
